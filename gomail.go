@@ -91,8 +91,6 @@ func (sw *SendWorker) SendEmail() error {
 		return err
 	}
 
-	fmt.Println("Send mail success!")
-
 	return nil
 }
 
